@@ -1,0 +1,10 @@
+
+252 B
+Plaintext
+.DS_Store
+*.pyc
+.idea/
+*.geany
+node_modules
+.vscode/
+db*

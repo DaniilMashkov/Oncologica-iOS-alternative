@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A40F8652B511D9A00A6F0F8 /* MapsLinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A40F8642B511D9A00A6F0F8 /* MapsLinksView.swift */; };
+		2A8C37D52B417FE000717C36 /* CalendarFiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8C37D42B417FE000717C36 /* CalendarFiltersView.swift */; };
+		2A9BD9352B6F999E00744380 /* MedicalDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9BD9342B6F999E00744380 /* MedicalDataView.swift */; };
+		2A9BD9372B6F9D0100744380 /* MedicalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9BD9362B6F9D0100744380 /* MedicalData.swift */; };
+		2ABA04AC2B42CB3F0052637E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABA04AB2B42CB3F0052637E /* File.swift */; };
+		2AC0B8952B47C96B004C6365 /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC0B8942B47C96B004C6365 /* Security.swift */; };
+		2AC569572B4CBD4200E99795 /* Shit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC569562B4CBD4200E99795 /* Shit.swift */; };
+		2AC5695B2B4ED2AE00E99795 /* EventRetrieveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC5695A2B4ED2AE00E99795 /* EventRetrieveView.swift */; };
+		2AC622C22B358E6F002ED4DD /* OncologicaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC622C12B358E6F002ED4DD /* OncologicaApp.swift */; };
+		2AC622C42B358E6F002ED4DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC622C32B358E6F002ED4DD /* ContentView.swift */; };
+		2AC622C62B358E71002ED4DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC622C52B358E71002ED4DD /* Assets.xcassets */; };
+		2AC622C92B358E71002ED4DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC622C82B358E71002ED4DD /* Preview Assets.xcassets */; };
+		2AC622D42B358EE3002ED4DD /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC622D02B358EE3002ED4DD /* Event.swift */; };
+		2AC622D52B358EE3002ED4DD /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC622D12B358EE3002ED4DD /* Auth.swift */; };
+		2AC622D62B358EE3002ED4DD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC622D22B358EE3002ED4DD /* User.swift */; };
+		2AC622D72B358EE3002ED4DD /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC622D32B358EE3002ED4DD /* Notification.swift */; };
+		2AC622DB2B358EF1002ED4DD /* NotificationCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC622D92B358EF1002ED4DD /* NotificationCountView.swift */; };
+		2AC622DC2B358EF1002ED4DD /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC622DA2B358EF1002ED4DD /* CustomButton.swift */; };
+		2AC622E52B358FF1002ED4DD /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC622DF2B358FF1002ED4DD /* MainScreenView.swift */; };
+		2AC622E62B358FF1002ED4DD /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC622E02B358FF1002ED4DD /* EventView.swift */; };
+		2AC622E72B358FF1002ED4DD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC622E12B358FF1002ED4DD /* ProfileView.swift */; };
+		2AC622E82B358FF1002ED4DD /* SpeakerRetrieveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC622E22B358FF1002ED4DD /* SpeakerRetrieveView.swift */; };
+		2AC622E92B358FF1002ED4DD /* SpeakerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC622E32B358FF1002ED4DD /* SpeakerView.swift */; };
+		2AC622EA2B358FF1002ED4DD /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC622E42B358FF1002ED4DD /* NotificationView.swift */; };
+		2AC622ED2B359024002ED4DD /* Validators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC622EC2B359024002ED4DD /* Validators.swift */; };
+		2AC622EF2B35909D002ED4DD /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC622EE2B35909D002ED4DD /* Speaker.swift */; };
+		2AC622F12B3590A8002ED4DD /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC622F02B3590A8002ED4DD /* AuthView.swift */; };
+		2AC622F32B359130002ED4DD /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC622F22B359130002ED4DD /* Network.swift */; };
+		2AC622F52B359ACD002ED4DD /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC622F42B359ACD002ED4DD /* CalendarView.swift */; };
+		2ACCC6352B37414A00BBBD30 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2ACCC6342B37414A00BBBD30 /* SDWebImageSwiftUI */; };
+		2ACD52FA2B70E1CE00CB5CD7 /* PdfToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACD52F92B70E1CE00CB5CD7 /* PdfToImage.swift */; };
+		2AEFD9C32B454F2C004C7F40 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEFD9C22B454F2C004C7F40 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A40F8642B511D9A00A6F0F8 /* MapsLinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsLinksView.swift; sourceTree = "<group>"; };
+		2A8C37D42B417FE000717C36 /* CalendarFiltersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarFiltersView.swift; sourceTree = "<group>"; };
+		2A9BD9342B6F999E00744380 /* MedicalDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalDataView.swift; sourceTree = "<group>"; };
+		2A9BD9362B6F9D0100744380 /* MedicalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalData.swift; sourceTree = "<group>"; };
+		2ABA04AB2B42CB3F0052637E /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		2AC0B8942B47C96B004C6365 /* Security.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Security.swift; sourceTree = "<group>"; };
+		2AC569562B4CBD4200E99795 /* Shit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shit.swift; sourceTree = "<group>"; };
+		2AC5695A2B4ED2AE00E99795 /* EventRetrieveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRetrieveView.swift; sourceTree = "<group>"; };
+		2AC622BE2B358E6F002ED4DD /* Oncologica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oncologica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC622C12B358E6F002ED4DD /* OncologicaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OncologicaApp.swift; sourceTree = "<group>"; };
+		2AC622C32B358E6F002ED4DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2AC622C52B358E71002ED4DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AC622C82B358E71002ED4DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2AC622D02B358EE3002ED4DD /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		2AC622D12B358EE3002ED4DD /* Auth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		2AC622D22B358EE3002ED4DD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2AC622D32B358EE3002ED4DD /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		2AC622D92B358EF1002ED4DD /* NotificationCountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCountView.swift; sourceTree = "<group>"; };
+		2AC622DA2B358EF1002ED4DD /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		2AC622DF2B358FF1002ED4DD /* MainScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		2AC622E02B358FF1002ED4DD /* EventView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		2AC622E12B358FF1002ED4DD /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2AC622E22B358FF1002ED4DD /* SpeakerRetrieveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerRetrieveView.swift; sourceTree = "<group>"; };
+		2AC622E32B358FF1002ED4DD /* SpeakerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerView.swift; sourceTree = "<group>"; };
+		2AC622E42B358FF1002ED4DD /* NotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		2AC622EC2B359024002ED4DD /* Validators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validators.swift; sourceTree = "<group>"; };
+		2AC622EE2B35909D002ED4DD /* Speaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
+		2AC622F02B3590A8002ED4DD /* AuthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		2AC622F22B359130002ED4DD /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		2AC622F42B359ACD002ED4DD /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		2AC622F62B35BD03002ED4DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2ACD52F92B70E1CE00CB5CD7 /* PdfToImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfToImage.swift; sourceTree = "<group>"; };
+		2AEFD9C22B454F2C004C7F40 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AC622BB2B358E6F002ED4DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ACCC6352B37414A00BBBD30 /* SDWebImageSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AC622B52B358E6F002ED4DD = {
+			isa = PBXGroup;
+			children = (
+				2AC622C02B358E6F002ED4DD /* Oncologica */,
+				2AC622BF2B358E6F002ED4DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AC622BF2B358E6F002ED4DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AC622BE2B358E6F002ED4DD /* Oncologica.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AC622C02B358E6F002ED4DD /* Oncologica */ = {
+			isa = PBXGroup;
+			children = (
+				2AC622F62B35BD03002ED4DD /* Info.plist */,
+				2AC622EB2B359024002ED4DD /* Utils */,
+				2AC622CF2B358EE3002ED4DD /* Models */,
+				2AC622D82B358EF1002ED4DD /* CustomComponents */,
+				2AC622C12B358E6F002ED4DD /* OncologicaApp.swift */,
+				2AC622C32B358E6F002ED4DD /* ContentView.swift */,
+				2AC622F42B359ACD002ED4DD /* CalendarView.swift */,
+				2AC622F02B3590A8002ED4DD /* AuthView.swift */,
+				2AC622E02B358FF1002ED4DD /* EventView.swift */,
+				2AC622DF2B358FF1002ED4DD /* MainScreenView.swift */,
+				2AC622E42B358FF1002ED4DD /* NotificationView.swift */,
+				2AC622E12B358FF1002ED4DD /* ProfileView.swift */,
+				2AC622E22B358FF1002ED4DD /* SpeakerRetrieveView.swift */,
+				2AC622E32B358FF1002ED4DD /* SpeakerView.swift */,
+				2AC622C52B358E71002ED4DD /* Assets.xcassets */,
+				2AC622C72B358E71002ED4DD /* Preview Content */,
+				2A8C37D42B417FE000717C36 /* CalendarFiltersView.swift */,
+				2ABA04AB2B42CB3F0052637E /* File.swift */,
+				2AC5695A2B4ED2AE00E99795 /* EventRetrieveView.swift */,
+				2A40F8642B511D9A00A6F0F8 /* MapsLinksView.swift */,
+				2A9BD9342B6F999E00744380 /* MedicalDataView.swift */,
+			);
+			path = Oncologica;
+			sourceTree = "<group>";
+		};
+		2AC622C72B358E71002ED4DD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2AC622C82B358E71002ED4DD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2AC622CF2B358EE3002ED4DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2AC622EE2B35909D002ED4DD /* Speaker.swift */,
+				2AC622D02B358EE3002ED4DD /* Event.swift */,
+				2AC622D12B358EE3002ED4DD /* Auth.swift */,
+				2AC622D22B358EE3002ED4DD /* User.swift */,
+				2AC622D32B358EE3002ED4DD /* Notification.swift */,
+				2A9BD9362B6F9D0100744380 /* MedicalData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2AC622D82B358EF1002ED4DD /* CustomComponents */ = {
+			isa = PBXGroup;
+			children = (
+				2AC622D92B358EF1002ED4DD /* NotificationCountView.swift */,
+				2AC622DA2B358EF1002ED4DD /* CustomButton.swift */,
+			);
+			path = CustomComponents;
+			sourceTree = "<group>";
+		};
+		2AC622EB2B359024002ED4DD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2AC622EC2B359024002ED4DD /* Validators.swift */,
+				2AC622F22B359130002ED4DD /* Network.swift */,
+				2AEFD9C22B454F2C004C7F40 /* Extensions.swift */,
+				2AC0B8942B47C96B004C6365 /* Security.swift */,
+				2AC569562B4CBD4200E99795 /* Shit.swift */,
+				2ACD52F92B70E1CE00CB5CD7 /* PdfToImage.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AC622BD2B358E6F002ED4DD /* Oncologica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC622CC2B358E71002ED4DD /* Build configuration list for PBXNativeTarget "Oncologica" */;
+			buildPhases = (
+				2AC622BA2B358E6F002ED4DD /* Sources */,
+				2AC622BB2B358E6F002ED4DD /* Frameworks */,
+				2AC622BC2B358E6F002ED4DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Oncologica;
+			packageProductDependencies = (
+				2ACCC6342B37414A00BBBD30 /* SDWebImageSwiftUI */,
+			);
+			productName = Oncologica;
+			productReference = 2AC622BE2B358E6F002ED4DD /* Oncologica.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AC622B62B358E6F002ED4DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					2AC622BD2B358E6F002ED4DD = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 2AC622B92B358E6F002ED4DD /* Build configuration list for PBXProject "Oncologica" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AC622B52B358E6F002ED4DD;
+			packageReferences = (
+				2ACCC6332B37414A00BBBD30 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = 2AC622BF2B358E6F002ED4DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AC622BD2B358E6F002ED4DD /* Oncologica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AC622BC2B358E6F002ED4DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC622C92B358E71002ED4DD /* Preview Assets.xcassets in Resources */,
+				2AC622C62B358E71002ED4DD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AC622BA2B358E6F002ED4DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC622C42B358E6F002ED4DD /* ContentView.swift in Sources */,
+				2AC622D42B358EE3002ED4DD /* Event.swift in Sources */,
+				2AC622D72B358EE3002ED4DD /* Notification.swift in Sources */,
+				2AC622EF2B35909D002ED4DD /* Speaker.swift in Sources */,
+				2AC622C22B358E6F002ED4DD /* OncologicaApp.swift in Sources */,
+				2AC622E52B358FF1002ED4DD /* MainScreenView.swift in Sources */,
+				2ABA04AC2B42CB3F0052637E /* File.swift in Sources */,
+				2AC622DC2B358EF1002ED4DD /* CustomButton.swift in Sources */,
+				2AC622E92B358FF1002ED4DD /* SpeakerView.swift in Sources */,
+				2AC622D62B358EE3002ED4DD /* User.swift in Sources */,
+				2AC622ED2B359024002ED4DD /* Validators.swift in Sources */,
+				2AC5695B2B4ED2AE00E99795 /* EventRetrieveView.swift in Sources */,
+				2AC622D52B358EE3002ED4DD /* Auth.swift in Sources */,
+				2A40F8652B511D9A00A6F0F8 /* MapsLinksView.swift in Sources */,
+				2A9BD9352B6F999E00744380 /* MedicalDataView.swift in Sources */,
+				2AC0B8952B47C96B004C6365 /* Security.swift in Sources */,
+				2AC569572B4CBD4200E99795 /* Shit.swift in Sources */,
+				2AC622EA2B358FF1002ED4DD /* NotificationView.swift in Sources */,
+				2AC622F52B359ACD002ED4DD /* CalendarView.swift in Sources */,
+				2A8C37D52B417FE000717C36 /* CalendarFiltersView.swift in Sources */,
+				2ACD52FA2B70E1CE00CB5CD7 /* PdfToImage.swift in Sources */,
+				2AC622E82B358FF1002ED4DD /* SpeakerRetrieveView.swift in Sources */,
+				2AC622DB2B358EF1002ED4DD /* NotificationCountView.swift in Sources */,
+				2AEFD9C32B454F2C004C7F40 /* Extensions.swift in Sources */,
+				2AC622F32B359130002ED4DD /* Network.swift in Sources */,
+				2AC622F12B3590A8002ED4DD /* AuthView.swift in Sources */,
+				2A9BD9372B6F9D0100744380 /* MedicalData.swift in Sources */,
+				2AC622E72B358FF1002ED4DD /* ProfileView.swift in Sources */,
+				2AC622E62B358FF1002ED4DD /* EventView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2AC622CA2B358E71002ED4DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AC622CB2B358E71002ED4DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AC622CD2B358E71002ED4DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Oncologica/Preview Content\"";
+				DEVELOPMENT_TEAM = LT84USA2QG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Oncologica/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.mashkov.daniil.Oncologica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AC622CE2B358E71002ED4DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Oncologica/Preview Content\"";
+				DEVELOPMENT_TEAM = LT84USA2QG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Oncologica/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.mashkov.daniil.Oncologica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AC622B92B358E6F002ED4DD /* Build configuration list for PBXProject "Oncologica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC622CA2B358E71002ED4DD /* Debug */,
+				2AC622CB2B358E71002ED4DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AC622CC2B358E71002ED4DD /* Build configuration list for PBXNativeTarget "Oncologica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC622CD2B358E71002ED4DD /* Debug */,
+				2AC622CE2B358E71002ED4DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2ACCC6332B37414A00BBBD30 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2ACCC6342B37414A00BBBD30 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2ACCC6332B37414A00BBBD30 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2AC622B62B358E6F002ED4DD /* Project object */;
+}
